@@ -23,10 +23,22 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="NavBar demo" id="8cU-ey-sBd">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="aLd-1w-Fys"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Item" systemItem="camera" id="aLd-1w-Fys"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="undo" id="Mcr-hv-OJy"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mD1-BI-iiv">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="reply" id="P5u-CK-Ydb"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8ql-ek-5Wj"/>
+                                    <barButtonItem systemItem="action" id="04W-wc-Odq"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qPW-KQ-FuE"/>
+                                    <barButtonItem systemItem="trash" id="ngt-GX-yae"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
